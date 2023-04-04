@@ -69,4 +69,10 @@ table{
 	margin: 0 auto;
 	border-spacing: 0;
 	border-collapse: collapse;
+	background: #fff;
+}
+th, td{
+	padding: 1em;
+	border: 1px solid #3d5a6d;
+	color: #fff;
 }
