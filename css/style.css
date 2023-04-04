@@ -58,6 +58,9 @@ p {
 }
 
 /* ----- LIST ----- */
+ol {
+	padding: 1em 0 0 40px;
+}
 ol li {
 	margin-bottom: 20px;
 	color: #fff;
