@@ -87,7 +87,6 @@ th {
 form {
 	width: 80%;
 	margin: 0 auto;
-	border-radius: 0;
 }
 form dt {
 	margin-bottom: 20px;
@@ -107,6 +106,7 @@ input {
 	width: 100%;
 	padding: .5em;
 	border: none;
+	border-radius: 0;
 	font-size: 1.1em;
 }
 input[type="radio"] {
