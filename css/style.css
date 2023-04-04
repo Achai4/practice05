@@ -95,3 +95,7 @@ form dt:before {
 	content: "◆";
 	margin-right: 10px;
 }
+form dd {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
