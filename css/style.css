@@ -111,3 +111,12 @@ input[type="radio"] {
 	margin-left: 24px;
 	margin-right: 4px;
 }
+input[type="submit"] {
+	display: block;
+	width: 70%;
+	padding: 20px;
+	margin: 40px auto 0;
+	background-color: #3ed6db;
+	color: #fff;
+	font-size: 20px;
+}
