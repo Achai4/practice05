@@ -126,5 +126,11 @@ input[type="submit"] {
 
 /* -----FOOTER ----- */
 footer {
+	padding: 20px;
 	text-align: center;
+	font-size: .9em;
+}
+address, small {
+	margin-bottom: 10px;
+	color: #2F4858;
 }
