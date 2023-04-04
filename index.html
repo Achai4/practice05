@@ -14,6 +14,89 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<header>
+			<h1>
+				<a><img src="img/logo.png" alt="ロゴ：MdN DIVE" type="max-width: 100%;"></a>
+			</h1>
+		</header>
+		<main>
+			<div class="mv-area">
+				<img src="img/photo_01.jpg" alt="この夏最後のキャンペーン！最短5日でダイバーデビュー！" style="max-width: 100%;">
+			</div>
+			<section>
+				<div class="section-inner">
+					<h2>Web限定のキャンペーン中！</h2>
+					<p>
+						3/31までにWebでお申し込みいただいた方限定で、特別価格を実施中です。MdN DIVEは安心のマンツーマン！お友達との参加も可能です。仲間と一緒にダイビングライセンスを取得して、世界中の海を楽しみましょう。
+					</p>
+				</div>
+			</section>
+			<section>
+				<div class="section-inner">
+					<h2>ライセンス取得までの流れ</h2>
+					<ol>
+						<li>学科講習（5・6時間）</li>
+						<li>プール実習（1・2日）</li>
+						<li>海洋実習（２日）</li>
+						<li>筆記試験</li>
+					</ol>
+					<table>
+						<tr>
+							<th>料金に含まれるもの</th>
+							<td>教材費・実習費・機材レンタル代・ライセンス申請代</td>
+						</tr>
+						<tr>
+							<th>料金に含まれないもの</th>
+							<td>交通費・宿泊代・追加ダイブ費（希望者のみ）</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+			<section>
+				<div class="section-inner">
+					<h2>申し込みフォーム</h2>
+					<form action="program.php" method="post">
+						<dl>
+							<dt>
+								<labe for="user-name">氏名</labe>
+							</dt>
+							<dd>
+								<input name="user-name" id="user-name" type="text">
+							</dd>
+							
+							<dt>
+								<label for="user-email">メールアドレス</label>
+							</dt>
+							<dd>
+								<input name="user-email" id="user-email" type="email">
+							</dd>
+							
+							<dt>水泳経験はありますか？</dt>
+							<dd>
+								<input name="swim" id="swim-yes" type="radio" value="水泳経験あり"><label for="swim-yes">はい</label></input>
+								<input name="swim" id="swim-no" type="radio" value="水泳経験なし"><label for="swim-no">いいえ</label></input>
+							</dd>
+						</dl>
+						<div>
+							<input name="submit" type="submit" value="申し込む">
+						</div>
+					</form>
+				</div>
+			</section>
+			<div class="form-img-area">
+				<img src="img/photo_02.jpg" style="max-width: 100%;">
+			</div>	
+		</main>
+		<footer>
+			<address>
+				〒101-0051<br>
+				東京都千代田区神田神保町1丁目105<br>
+				00-0000-0000<br>
+				株式会社MdN DIVE
+			</address>
+			<small>
+				&copy; MdN DIVE
+			</small>
+		</footer>
 	</body>
 </html>
