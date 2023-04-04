@@ -62,3 +62,11 @@ ol li{
 	margin-bottom: 20px;
 	color: #fff;
 }
+
+/* ----- TABLE ----- */
+table{
+	width: 80%;
+	margin: 0 auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
