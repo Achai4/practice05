@@ -120,3 +120,11 @@ input[type="submit"] {
 	color: #fff;
 	font-size: 20px;
 }
+.form-img-area img {
+	width: 100%;
+}
+
+/* -----FOOTER ----- */
+footer {
+	text-align: center;
+}
